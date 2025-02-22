@@ -37,5 +37,15 @@ describe("SolidityFunctions", function () {
       const balance = await ctcSolidityFunctions.getBalance();
       console.log("balance is now ", balance);
     });
+
+    describe("Palo", function(){
+      it("Kulogo", async function (){
+        const { ctcSolidityFunctions } = await loadFixture(deploy);
+        expect(ctcSolidityFunctions).not.to.be.undefined;
+      })
+    })
+
+    
+
   });
 });
