@@ -2,7 +2,7 @@
     "name": "testlang",
     "description": "testlang",
     "symbol": "TES1",
-    "image": "https://imgur.com/a/R5KjIKt",
+    "image": "[img]https://i.imgur.com/N1Etek5.jpeg[/img]",
     "attributes": [
         {
             "trait_type": "event",
